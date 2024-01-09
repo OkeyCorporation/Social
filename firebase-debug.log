@@ -1,0 +1,214 @@
+[debug] [2024-01-09T06:24:16.374Z] ----------------------------------------------------------------------
+[debug] [2024-01-09T06:24:16.376Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ACER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-09T06:24:16.377Z] CLI Version:   13.0.2
+[debug] [2024-01-09T06:24:16.377Z] Platform:      win32
+[debug] [2024-01-09T06:24:16.377Z] Node Version:  v20.10.0
+[debug] [2024-01-09T06:24:16.377Z] Time:          Tue Jan 09 2024 12:24:16 GMT+0600 (Восточный Казахстан)
+[debug] [2024-01-09T06:24:16.377Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-09T06:24:16.382Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-09T06:24:16.382Z] > authorizing via signed-in user (andrusha120810@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ACER\Desktop\СоциоКруг
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-01-09T06:25:36.346Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-01-09T06:25:37.208Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-01-09T06:25:37.208Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project sociokrug (SocioKrug) 
+[info] 
+=== Hosting Setup
+[debug] [2024-01-09T06:25:44.185Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sociokrug [none]
+[debug] [2024-01-09T06:25:44.775Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sociokrug 200
+[debug] [2024-01-09T06:25:44.775Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sociokrug {"projectId":"sociokrug","projectNumber":"787312853031","displayName":"SocioKrug","name":"projects/sociokrug","resources":{"hostingSite":"sociokrug"},"state":"ACTIVE","etag":"1_3b04a3c4-6373-40dd-8ad3-2d936724e213"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-01-09T06:28:32.176Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-01-09T06:28:32.554Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-01-09T06:28:32.554Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.7.1","browserURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.tgz"},"live":{"version":"10.7","browserURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.7.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.7.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.7.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.7.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\ACER\Desktop\СоциоКруг is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=366421194&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-01-09T06:29:03.307Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-01-09T06:29:03.307Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-01-09T06:29:04.914Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-01-09T06:29:04.914Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-01-09T06:29:04.921Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-01-09T06:29:05.726Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-01-09T06:29:05.726Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"OkeyCorporation","id":153545373,"node_id":"U_kgDOCSbqnQ","avatar_url":"https://avatars.githubusercontent.com/u/153545373?v=4","gravatar_id":"","url":"https://api.github.com/users/OkeyCorporation","html_url":"https://github.com/OkeyCorporation","followers_url":"https://api.github.com/users/OkeyCorporation/followers","following_url":"https://api.github.com/users/OkeyCorporation/following{/other_user}","gists_url":"https://api.github.com/users/OkeyCorporation/gists{/gist_id}","starred_url":"https://api.github.com/users/OkeyCorporation/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/OkeyCorporation/subscriptions","organizations_url":"https://api.github.com/users/OkeyCorporation/orgs","repos_url":"https://api.github.com/users/OkeyCorporation/repos","events_url":"https://api.github.com/users/OkeyCorporation/events{/privacy}","received_events_url":"https://api.github.com/users/OkeyCorporation/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":11,"public_gists":0,"followers":0,"following":0,"created_at":"2023-12-11T17:58:16Z","updated_at":"2024-01-08T16:02:29Z","private_gists":0,"total_private_repos":2,"owned_private_repos":2,"disk_usage":11048,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as OkeyCorporation 
+[info] 
+[debug] [2024-01-09T06:31:32.344Z] >>> [apiv2][query] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:31:32.907Z] <<< [apiv2][status] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key 404
+[debug] [2024-01-09T06:31:32.907Z] <<< [apiv2][body] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:33:32.918Z] >>> [apiv2][query] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:33:33.494Z] <<< [apiv2][status] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key 404
+[debug] [2024-01-09T06:33:33.494Z] <<< [apiv2][body] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:34:55.634Z] >>> [apiv2][query] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:34:56.196Z] <<< [apiv2][status] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key 404
+[debug] [2024-01-09T06:34:56.196Z] <<< [apiv2][body] GET https://api.github.com/repos/OkeyCorporation/myproject/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:35:06.026Z] >>> [apiv2][query] GET https://api.github.com/repos/OkeyCorporation//actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:35:06.526Z] <<< [apiv2][status] GET https://api.github.com/repos/OkeyCorporation//actions/secrets/public-key 404
+[debug] [2024-01-09T06:35:06.526Z] <<< [apiv2][body] GET https://api.github.com/repos/OkeyCorporation//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:35:47.230Z] >>> [apiv2][query] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:35:47.852Z] <<< [apiv2][status] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key 404
+[debug] [2024-01-09T06:35:47.852Z] <<< [apiv2][body] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:48.467Z] >>> [apiv2][query] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:49.068Z] <<< [apiv2][status] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:49.068Z] <<< [apiv2][body] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:49.887Z] >>> [apiv2][query] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:50.140Z] <<< [apiv2][status] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:50.141Z] <<< [apiv2][body] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:50.836Z] >>> [apiv2][query] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:51.102Z] <<< [apiv2][status] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:51.102Z] <<< [apiv2][body] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:51.237Z] >>> [apiv2][query] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:51.508Z] <<< [apiv2][status] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:51.508Z] <<< [apiv2][body] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:51.524Z] >>> [apiv2][query] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:51.765Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:51.785Z] <<< [apiv2][status] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:51.785Z] <<< [apiv2][body] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:51.975Z] >>> [apiv2][query] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:52.164Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:52.219Z] <<< [apiv2][status] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:52.220Z] <<< [apiv2][body] GET https://api.github.com/repos/Okeycorporation/SocioKrug/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:52.403Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:52.403Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:52.858Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:52.859Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:36:54.600Z] >>> [apiv2][query] GET https://api.github.com/repos/Okeycorporation/SocioKrug y/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:36:54.927Z] <<< [apiv2][status] GET https://api.github.com/repos/Okeycorporation/SocioKrug y/actions/secrets/public-key 404
+[debug] [2024-01-09T06:36:54.927Z] <<< [apiv2][body] GET https://api.github.com/repos/Okeycorporation/SocioKrug y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2024-01-09T06:37:01.266Z] >>> [apiv2][query] GET https://api.github.com/repos/y/actions/secrets/public-key type=owner
+[debug] [2024-01-09T06:37:02.180Z] <<< [apiv2][status] GET https://api.github.com/repos/y/actions/secrets/public-key 404
+[debug] [2024-01-09T06:37:02.181Z] <<< [apiv2][body] GET https://api.github.com/repos/y/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
